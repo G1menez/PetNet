@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet.Net</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="menu.js" defer></script>
+</head>
+<body id="retorno2">
+    <header class="cabeçalho">
+        <nav class="cabeçalho_menu">
+        <img src="imagens/1(1).png" alt="" height="70">
+        <a class="cabeçalho_menu_link" href="index2.html">home</a>
+        <a class="cabeçalho_menu_link" href="serv2.html">Serviços</a>
+        <a class="cabeçalho_menu_link" href="contato.html">Agendamentos</a>
+        <a class="cabeçalho_menu_link" href="quemmobile2.html">Quem somos</a>
+        <a class="cabeçalho_menu_link" href="index.html">Deslogar</a>
+        </nav>
+        <div class="btn-abrir-menu" id="btn-menu">
+            <img src="imagens/list.svg" alt="" width="100">
+        </div>
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <img src="imagens/x-lg.svg" alt="" width="50">
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="cabeçalho_menu_link" href="index2.html">home</a></li>
+                    <li><a class="cabeçalho_menu_link" href="serv2.html">Serviços</a></li>
+                    <li><a class="cabeçalho_menu_link" href="contato.html">Agendamentos</a></li>
+                    <li><a class="cabeçalho_menu_link" href="quemmobile2.html">Quem somos</a></li>
+                    <li><a class="cabeçalho_menu_link" href="index.html">Deslogar</a></li>
+                </ul>
+            </nav>
+            <div class="overlay-menu">
+
+            </div>
+        </div>
+
+        
+    </header>
+        <main class = apresentação>
+            <section class="apresentação-conteudo" >
+                <!-- Titulo da pagina -->
+                <h1 class="apresentação-conteudo-titulo"><b> Nosso serviços são:</b></h1>
+                <!-- quais são nossos serviços -->
+                <!-- lista sem ser ordenada -->
+                <ul>
+                    <!-- lista de descrição -->
+                    <dl class="apresentação-conteudo-texto">
+                        
+                        <dt class="titulo-grande"><b>Nosso difencial: </b></dt> <br>
+                        <dd>  
+                            Nós oferecemos serviços para buscar seus pets diretamente nas casas dos clientes e por 
+                            uma pequena taxa extra podemos realizar tanto o banho e tosa quanto a vacinação diretamente nas
+                            casas dos clientes.
+                        </dd> <br>
+                        <!-- elemento a ser descrito -->
+                        <dt class="titulo-grande"><b>Banho e Tosa:</b></dt> <br>
+                        <!-- descrição do elemento -->
+                            <dd> Nossos serviços são tanto para animais grandes quanto pequenos com as melhores marcas de shampoos para 
+                            que seu pet saia limpo e cheiroso.</dd> <br>
+                        <dt class="titulo-grande"><b>Vacinação: </b></dt> <br>
+                            <dd>
+                            Oferecemos Vacinação para seu pet com as melhores vacinas do mercado tudo visando
+                            proteger o seu pet contra doenças, nós vacinamos desde cachorros, gatos ou coelhos.</dd> <br>
+                        <dt class="titulo-grande"><b>Consultas medicas: </b></dt> <br>
+                            <dd>
+                                Temos consultas medicas com profissionais extrememamente qualificados 
+                                prontos 24 horas por dia preparados para cuidar do bem estar do seu Pet tanto
+                                online quanto presencialmente, dependendo apenas da escolha do cliente
+                            </dd> <br>
+                        <dt class="titulo-grande"><b>Cirurgias: </b></dt> <br>
+                            <dd>
+                                Temos os melhores e mais qualificados especialistas para realizar cirurgias em seus pets,
+                                temos equipamentos de maior qualidade do mercado que fazem a maioria das mais arriscadas cirurgias
+                                serem seguras para que seu pet não sofra riscos de vida.                                
+                            </dd>
+                        
+                    </dl>
+                </ul> 
+                <!-- cria uma ancora de retorno pro começo da pagina -->
+                <a class="imagem" href="#retorno2"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAS1BMVEX///8AAADv7+/29vbz8/P39/c2NjYvLy8tLS00NDQoKCg5OTkxMTEqKiolJSVoaGinp6dEREQ/Pz/h4eHY2Niurq6SkpJQUFBqamq2gfgaAAAEzUlEQVR4nO2d63aiMBRGQUDrbaq1t/d/0rFFKpcAyclJ8sH69m9nhS3nRkjHLIvK5ZpfL3GXjEr1lv/wVqW+kFAUx7zmWKS+lDAU27xhu0rF4pQ/Oa1QsWoL3hVXl4vVMe9yXJliccr7rCtQDYLrUmxV0TbrqaiDHFxbLpa7EcE835WpL06DalzwrriCu1iMhegjUBefiyNFZj3lxtgmuiy7aRT7WcE83y9YcbRN9HJxseWmnA/RR6AutGkUU22iy26RgTpbRdsssaI6CS5RcWJUM7O0AW5yVBtRXFRFnRnVzCxpgLNq9EOW0/od2kSXpTQN4R1czl20HNXMLGGAK188BPP8Bb5piHOwAT0XHScZE9jTjYIgtqLzqGYGd4Cz2LKwA3VjQzSqmcEc4Kyf6G1AfOr3bhNd8JqGShVtg1ZRK23BuyLUAOc5qplBGuCqEIJ3RZi7qNgmuqA0DfUi8wSj3CiNamYQBji1Uc1M+gEuWA42pM5F1VHNTNoBTnlUM5NygAtYRdukq6iRBNMpBhnVzKQZ4AKNaiOKCQa4aCFaEz9QS/nWvYx95EANOqqZiTvAebx8kRPztU3kHGyIl4sR20SXWE2jSCV4V4xyFxOFaE2MQE0qGEMxQZvoErppRHlcmlEMehcTh2hNyECN8ERvQ7infoAQrQkVqElGNTNhBjiIHGwIkYvlObVVh7N6LiYc1cxoD3BQIVqjG6hAReaJZrkRjmr/Anyyjd4AJ3z5crpZf/QmXEHpLgpz8FCW1p8ty4NoDZ1cFIbovsw21h/eSPfuNAJV2CZ+Nv9cDKWK/k1DHKKZo2FWysqNb6AKz8nUE4eboXRq8jx38ypbtM4OR8OslH2drz6C76Ilm+c3V0Pp8+e7h+FFsuDfUOxsmMmahs9/WiQxfD6BuxvK7qKPoSBKt88OJTAU5aJPlLpXmvZzm8RQUFG/fQSdm9ShPWOIDP2WFFA45X63/coMHaebs/dQ41Leeu9phYZOihqvozbWg2l/70Rq6PCtnnr/UqhomRiDr1NsaP2GUms/qrBS3A5WkxtaNo2z2hkUm0A1bLV7GFo9lWru7m9mm5QpXnwMLXLxRSUHbdcznnbxMpwd4LT3hKdzcZiD/oYzTeOgvq8/lYsjXdfTcDJwdNpE73pH7+JYvPgaTgxwhwCC4wPc6E6Jt+FooOq1id56xoo6fqTO33Ck3IQ7rWBqGhMlTcHQmIu7ICH6WG+QGFNdV8PQ0Pr1Xx226TcNc5t4oGI4GOAOgY8Ld5vG9JEBHcPeGB7+zy82rcSYiRclw04ungPm4HC9uQ11LcNWRY1zOLEpN5M5+IOa4V9f9N+ysKP83YF7nc14PcOs+F3yO95R7/fLxWKTUtEwy24fHzf/C1dG1RASGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQHxrSEB8a0hAfGtIQn8riVxp/2QX+gaNwfFoafqa+UDlfVoJfqS/Th8t11u/q88PhFvwHSJ9J1G+G7tsAAAAASUVORK5CYII=" alt="" width="50px" height="50px"></a>
+            </section>
+            <!-- video do cachorro dando a pata -->
+            <video class="video1" controls loop muted width="600" autoplay>
+                <source src="https://videos.pexels.com/video-files/5751499/5751499-hd_1080_2048_25fps.mp4">
+            </video> 
+        </main>
+        <footer class="rodape">
+            <!-- logo do Pet.net e o horario de funcionamento -->
+            <img src="imagens/1(1).png" alt="" width="50">
+            <p>Horário de funcionamento	de segunda a sexta 24 horas e aos finais de semana das 8 as 14
+                </p>
+                <img src="imagens/1(1).png" alt="" width="50">
+        </footer>
+    
+</body>
+</html> 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet.Net</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="menu.js" defer></script>
+</head>
+<body class="pata">
+    <header class="cabeçalho">
+        <nav class="cabeçalho_menu">
+        <img src="imagens/1(1).png" alt="" height="70">
+        <a class="cabeçalho_menu_link" href="index2.html">home</a>
+        <a class="cabeçalho_menu_link" href="serv2.html">Serviços</a>
+        <a class="cabeçalho_menu_link" href="contato.html">Agendamentos</a>
+        <a class="cabeçalho_menu_link" href="quemmobile2.html">Quem somos</a>
+        <a class="cabeçalho_menu_link" href="index.html">Deslogar</a>
+        </nav>
+        <div class="btn-abrir-menu" id="btn-menu">
+            <img src="imagens/list.svg" alt="" width="100">
+        </div>
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <img src="imagens/x-lg.svg" alt="" width="50">
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="cabeçalho_menu_link" href="index2.html">home</a></li>
+                    <li><a class="cabeçalho_menu_link" href="serv2.html">Serviços</a></li>
+                    <li><a class="cabeçalho_menu_link" href="contato.html">Agendamentos</a></li>
+                    <li><a class="cabeçalho_menu_link" href="quemmobile2.html">Quem somos</a></li>
+                    <li><a class="cabeçalho_menu_link" href="index.html">Deslogar</a></li>
+                </ul>
+            </nav>
+            <div class="overlay-menu">
+
+            </div>
+        </div>
+
+        
+    </header>
+    <main class="forms1">
+        
+        <br><br>
+        <form class="text-login2" method="get">
+            <h1>Faça o Agendamento pelo site: </h1>
+            <br><br>
+            Nome completo: <br>
+            <input class="texto" type="text" id="nome" name="nome" required><br><br>
+            Nome da Rua: <br>
+            <input class="texto" type="text"><br><br>
+            Numero da Casa: <br>
+            <input class="texto" type="text"><br><br>
+            Escolha o serviço: <br><br>
+            <input type="radio" name="serv"> Banho e Tosa <br><br>
+            <input type="radio" name="serv"> Vacinação <br><br>
+            <input type="radio" name="serv"> Consultas <br><br>
+            <input type="radio" name="serv"> Cirurgias <br><br>
+            <label for="txtdata">Data</label>
+            <input type="date" id="txtdata" name="data"> <br><br>
+            <button class="button1" type="submit"><a href="index2.html">Agendar</a></button>
+          </form>
+    </main>
+</body>
+</html>
