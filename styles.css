@@ -473,6 +473,8 @@ input
  {
     text-align: center;
     gap: 40px;
+    font-size: 12px;
+    text-align: justify;
 }
 .quemsomos img
 {
